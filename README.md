@@ -21,7 +21,6 @@ The code in this repository implements LUNA on top of SynthID-style binary tourn
 - [Environment setup](#environment-setup)
 - [Data, languages, models, and POS analyzers](#data-languages-models-and-pos-analyzers)
 - [Running experiments](#running-experiments)
-- [Outputs](#outputs)
 - [Citation](#citation)
 
 ---
