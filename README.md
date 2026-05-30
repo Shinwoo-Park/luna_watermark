@@ -59,9 +59,7 @@ LUNA turns this intuition into a normalized entropy value, `lambda(c)`, for a PO
 
 For a language `L`, LUNA estimates the next fine-grained POS tag distribution after a POS context `c` from an external calibration corpus. Let `S_{L,c}` be the set of next tags observed after `c`, and let `K_{L,c}=|S_{L,c}|`. With empirical probabilities `P_L(q' | c)`, LUNA computes:
 
-$$
-H_L(c)
-=
+$$H_L(c)=
 -\sum_{q' \in S_{L,c}}
 P_L(q' \mid c)
 \log_2 P_L(q' \mid c)
