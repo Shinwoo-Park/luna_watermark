@@ -418,5 +418,13 @@ python -u scripts/main_experiment/run_main_chunk.py \
 ## Citation
 
 ```text
-
+@misc{park2026linguisticsawarenondistortionaryllmwatermarking,
+      title={Linguistics-Aware Non-Distortionary LLM Watermarking}, 
+      author={Shinwoo Park and Hyejin Park and Hyeseon An and Yo-Sub Han},
+      year={2026},
+      eprint={2606.00613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.00613}, 
+}
 ```
