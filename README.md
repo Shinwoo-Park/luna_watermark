@@ -1,4 +1,4 @@
-# LUNA: Linguistics-Aware Non-Distortionary LLM Watermarking
+# LUNA: Linguistics-Aware Non-Distortionary LLM Watermarking (EMNLP 2026 Main Conference)
 
 LUNA (**L**ing**u**istics-Aware **N**on-Distortionary LLM W**a**termarking) is a multilingual decoding-time watermark that combines:
 
