@@ -418,13 +418,25 @@ python -u scripts/main_experiment/run_main_chunk.py \
 ## Citation
 
 ```text
-@misc{park2026linguisticsawarenondistortionaryllmwatermarking,
-      title={Linguistics-Aware Non-Distortionary LLM Watermarking}, 
-      author={Shinwoo Park and Hyejin Park and Hyeseon An and Yo-Sub Han},
-      year={2026},
-      eprint={2606.00613},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2606.00613}, 
+@inproceedings{park-etal-2026-linguistics-aware,
+    title = "Linguistics-Aware Non-Distortionary {LLM} Watermarking",
+    author = "Park, Shinwoo  and
+      Park, Hyejin  and
+      An, Hyeseon  and
+      Han, Yo-Sub",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1203/",
+    doi = "10.18653/2026.emnlp-main.1203",
+    pages = "27521--27542",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Watermarking should identify language-model output without degrading quality or limiting verification to the model provider. Multilingual deployment makes this harder because morphology, segmentation, and script change where watermark evidence can be naturally embedded. We introduce LUNA, a linguistically adaptive watermark that combines model-free detection with single-token non-distortion under the standard random-key model. LUNA estimates normalized next-tag entropy from part-of-speech contexts in an external corpus and uses it to set the depth of a non-distortionary binary tournament sampler; the detector reconstructs the same schedule from text, a tokenizer, a tagger, and a secret key. We evaluate LUNA on six typologically diverse languages and two domains against eight primary baselines. LUNA attains an AUROC of 0.9959 and the lowest mean absolute median perplexity shift, 0.045, across the 12 settings; its 95{\%} bootstrap interval [0.022, 0.073] lies below all baseline intervals. LUNA also records the lowest mean on Self-BLEU, Distinct-1, surprisal, and entropy shifts; it is the only method that simultaneously achieves AUROC {\ensuremath{>}} 0.99 and |{\ensuremath{\Delta}}PPLmed| {\ensuremath{<}} 0.1 in a majority of settings, reaching this regime in 9 of the 12 settings while no baseline reaches it in more than 2. Our code is available at https://github.com/Shinwoo-Park/luna{\_}watermark."
 }
 ```
